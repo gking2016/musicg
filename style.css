@@ -1,0 +1,62 @@
+body{
+    height:80vh;
+    margin:0;
+    /* background: #ddd; */
+}
+.music_player{
+display: flex;
+justify-content: space-between;
+padding: 20px;
+margin-bottom: 0;
+background: #fff;
+/* border-top:5px solid #185ADB; */
+/* border-radius: 20px; */
+/* box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.267); */
+}
+.musi_info{
+    position:relative;
+    top:-10px;
+    left:-100px;
+}
+.song{
+    font-weight: bold;
+    margin-left:10px ;
+}
+.auth{
+    margin-left:10px ;
+    position:relative;
+    top:-12px;
+}
+.music_controls{
+position: relative;
+top:10px;
+}
+.music{
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+
+}
+button{
+    border:none;
+    background: none;
+}
+.rotate{
+    /* height:100px;
+    width:100px; */
+    animation: rotate ;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.hide{
+    display: none;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

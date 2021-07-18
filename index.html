@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<script src="./index.js" defer></script>
+</head>
+<body>      
+<div class="music_player">
+    <img src="./audio/c-d-x-PDX_a_82obo-unsplash.jpg" id="mus" class="music" alt="">
+    <div class="musi_info">
+        <p class="song">Bad Boy</p>
+        <p class="auth">Marwa Loud</p>
+    </div>
+    
+    <audio src="./audio/Bad+Boy+Marwa+Loud+Lyrics+🎵.mp3" id="bb"></audio>
+    <div class="music_controls">
+        <button><i class="fas fa-step-backward" style="font-size:24px"></i></button>
+        <button id="play" onclick="playAudio()"><i class="fa fa-play" style="font-size:24px"></i></button>
+        <button id="pause" class="hide" onclick="pauseAudio()"><i class="fa fa-pause" style="font-size:24px"></i></button>
+        <button id="pause"><i class="fas fa-step-forward" style="font-size:24px"></i></i></button>
+        
+        <!-- <button id="vp"  onclick="setHalfVolume()"><i class="fas fa-volume-up"></i></button>
+        <button id="vm" onclick="setFullVolume()"><i class="fas fa-volume-down"></i></button> -->
+    </div>
+    
+</div>   
+
+</body>
+</html>
